@@ -1,2 +1,4 @@
 # Gamma-Hadron-Classification
- This project classifies high-energy gamma particles using data from the MAGIC gamma telescope, employing various machine learning algorithms to differentiate signal from background.
+ This project involves the classification of high-energy gamma particles using data from the MAGIC gamma telescope, which simulates the registration of these particles through atmospheric Cherenkov radiation. The dataset contains information on the pulses left by incoming Cherenkov photons on photomultiplier tubes, allowing the discrimination between primary gamma (signal) and hadronic showers initiated by cosmic rays (background). The data undergoes preprocessing, feature selection, and classification using various algorithms, including Decision Trees, AdaBoost, K-Nearest Neighbor (K-NN), Logistic Regression, Naive Bayes, and Random Forest. The models' performances are compared to evaluate the effect of preprocessing and feature selection on classification accuracy.
+
+Data Source: https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope
